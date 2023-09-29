@@ -1,0 +1,41 @@
+body {
+
+    font-family: Verdana, sans-serif;
+
+
+    background-color: hsl(160, 50%, 80%);
+}
+
+article,
+footer {
+
+    background-color: hsla(274, 100%, 86%, 0.6);
+    background-color: rgba(33, 33, 33, 0.3);
+    background-color: #20DD90
+}
+
+article {
+    padding: 0 10px;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover {
+    text-decoration: underline;
+}
